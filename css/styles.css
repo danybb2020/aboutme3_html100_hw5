@@ -3,7 +3,8 @@ h1 {
   font-weight: bold;
   font-family: "Qahiri", sans-serif;
   font-size: 100px;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
