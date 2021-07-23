@@ -3,6 +3,7 @@ h1 {
   font-weight: bold;
   font-family: "Qahiri", sans-serif;
   font-size: 100px;
+  justify-content: flex-end;
 }
 
 h2 {
@@ -60,11 +61,15 @@ a[href="http://disney.com/"]
 {
   background-color: orange;
   padding: 1rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 a[href="http://nike.com/"]
 {
   background-color: pink;
+  display: flex;
+  justify-content: space-around;
 }
 
 img {
@@ -79,4 +84,6 @@ footer {
   border-width: 3px;
   border-style: solid;
   width: 25%;
+  display: flex;
+  justify-content: center;
 }
